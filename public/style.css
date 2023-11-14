@@ -1,0 +1,90 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(rgb(38, 38, 177), green, blue);
+}
+
+
+
+.chat-section{
+    width: 800px;
+    border:2px solid rgb(20, 18, 18);
+    max-width: 90%;
+
+
+}
+.title{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    background-color: #d35656;
+    height: 22px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+img{
+    height: 46px;
+    width: 54px;
+}
+.message-section{
+    height: 500px;
+    padding:16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 30px;
+    
+
+}
+textarea{
+    width: 99%;
+    
+    font-size: 21px;
+    background: #fbfbfb ;
+}
+.in-message{
+   
+    margin-right: auto;
+    background: #e9b6c1;
+    min-width: 60px;
+    margin-top: 8px;
+    border-radius: 6px;
+   
+}
+.out-message{
+  
+    background: #f54067aa;
+    margin-left: auto;
+    min-width: 60px;
+    margin-top: 8px;
+   border-radius: 6px;
+}
+.message{
+    position: relative;
+}
+.message-section h4 {
+    position: absolute;
+    color: #333;
+    font-size: 14px;
+    top: -14px;
+    left: 8px;
+    font-style: italic ;
+}
+.message-section h6{
+    font-size: 10px;
+    position: absolute;
+    
+    right: 5px;
+    bottom: -23px;
+}
+.message-section p{
+  padding :12px;
+}
+
